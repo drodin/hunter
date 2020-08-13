@@ -8,6 +8,12 @@ include(hunter_pick_scheme)
 
 hunter_add_version(
     PACKAGE_NAME OpenAL
+    VERSION "1.20.1-de060ce"
+    URL "https://github.com/kcat/openal-soft/archive/de060ce.tar.gz"
+    SHA1 "98da2774dbd4879539eaeddfa6643843955431af")
+
+hunter_add_version(
+    PACKAGE_NAME OpenAL
     VERSION "1.19.1"
     URL "https://github.com/kcat/openal-soft/archive/openal-soft-1.19.1.tar.gz"
     SHA1 "436ee636215555a351ac2ec3ea06611ad63d4bc7")
@@ -34,8 +40,11 @@ hunter_cmake_args(
         ALSOFT_EXAMPLES=OFF
         ALSOFT_TESTS=OFF
         ALSOFT_CONFIG=OFF
+        ALSOFT_INSTALL_CONFIG=OFF
         ALSOFT_HRTF_DEFS=OFF
+        ALSOFT_INSTALL_HRTF_DATA=OFF
         ALSOFT_AMBDEC_PRESETS=OFF
+        ALSOFT_INSTALL_AMBDEC_PRESETS=OFF
         ALSOFT_EMBED_HRTF_DATA=OFF
         ${_hunter_openal_cmake_args}
 )
