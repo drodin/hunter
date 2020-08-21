@@ -1,0 +1,128 @@
+on:
+  # push:
+  #   branches: [ pr.* ]
+  #   paths: [ cmake/projects/** ]
+  pull_request:
+    #branches: [ master github_actions_ci ]
+    paths: [ cmake/projects/** ]
+
+jobs:
+
+  build:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          # Linux
+          - { os: ubuntu-16.04, toolchain: clang-cxx17 }
+          - { os: ubuntu-16.04, toolchain: gcc-7-cxx17 }
+          - { os: ubuntu-16.04, toolchain: android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 }
+          - { os: ubuntu-16.04, toolchain: analyze-cxx17 }
+          - { os: ubuntu-16.04, toolchain: sanitize-address-cxx17 }
+          - { os: ubuntu-16.04, toolchain: sanitize-leak-cxx17 }
+          - { os: ubuntu-16.04, toolchain: sanitize-thread-cxx17 }
+          # OSX
+          - { os: macos-10.15,  toolchain: osx-10-13-make-cxx14 }
+          - { os: macos-10.15,  toolchain: osx-10-13-cxx14 }
+          - { os: macos-10.15,  toolchain: ios-nocodesign-13-2-dep-9-3 }
+          # Windows
+          - { os: windows-2016, toolchain: ninja-vs-15-2017-win64-cxx17 }
+          - { os: windows-2016, toolchain: nmake-vs-15-2017-win64-cxx17 }
+          - { os: windows-2016, toolchain: vs-15-2017-win64-cxx17 }
+          - { os: windows-2016, toolchain: vs-14-2015-sdk-8-1 }
+          - { os: windows-2016, toolchain: mingw-cxx17 }
+          - { os: windows-2016, toolchain: msys-cxx17 }
+
+    steps:
+
+    - name: Set toolchain and project dir
+      shell: bash
+      run: |
+        echo "::set-env name=TOOLCHAIN::${{ matrix.toolchain }}"
+        GIT_REF="${GITHUB_HEAD_REF:-$GITHUB_REF}"
+        PROJECT_NAME="${GIT_REF#refs/heads/pr.}"
+        echo "::set-env name=PROJECT_DIR::examples/${PROJECT_NAME}"
+
+    - name: Git checkout with submodules
+      uses: actions/checkout@v2
+      with:
+        submodules: true
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.8
+
+    - name: Install Python package 'requests'
+      run: |
+        python -m pip install --upgrade pip
+        pip install requests
+        pip install gitpython
+
+    - name: Unix - Install latest Polly toolchains and scripts
+      if: "!startsWith(matrix.os, 'windows')"
+      run: |
+        wget https://github.com/cpp-pm/polly/archive/master.zip
+        unzip master.zip
+        POLLY_ROOT="${{ github.workspace }}/polly-master"
+        echo "::add-path::${POLLY_ROOT}/bin"
+
+    - name: Windows - Install latest Polly toolchains and scripts
+      if: "startsWith(matrix.os, 'windows')"
+      run: |
+        C:\msys64\usr\bin\wget.exe https://github.com/cpp-pm/polly/archive/master.zip
+        7z x master.zip
+        echo "::set-env name=POLLY_ROOT::${{ github.workspace }}\polly-master"
+
+    - name: Unix - Install dependencies (CMake, Android NDK)
+      if: "!startsWith(matrix.os, 'windows')"
+      run: |
+        install-ci-dependencies.py --prune-archives
+
+    - name: Windows - Install dependencies (CMake, Android NDK)
+      if: "startsWith(matrix.os, 'windows')"
+      run: |
+        python "${env:POLLY_ROOT}\bin\install-ci-dependencies.py"
+
+    - name: Tune locations
+      run: |
+        echo "::add-path::${{ github.workspace }}/_ci/cmake/bin"
+        echo "::add-path::${{ github.workspace }}/_ci/ninja"
+
+    - name: Android - NDK paths
+      if: startsWith(matrix.toolchain, 'android')
+      run: |
+        echo "::set-env name=ANDROID_NDK_r10e::${{ github.workspace }}/_ci/android-ndk-r10e"
+        echo "::set-env name=ANDROID_NDK_r11c::${{ github.workspace }}/_ci/android-ndk-r11c"
+        echo "::set-env name=ANDROID_NDK_r15c::${{ github.workspace }}/_ci/android-ndk-r15c"
+        echo "::set-env name=ANDROID_NDK_r16b::${{ github.workspace }}/_ci/android-ndk-r16b"
+        echo "::set-env name=ANDROID_NDK_r17::${{ github.workspace }}/_ci/android-ndk-r17"
+
+    - name: OSX - Use Xcode 11.3.1 instead of default 11.6
+      run: |
+        echo "::set-env name=DEVELOPER_DIR::/Applications/Xcode_11.3.1.app/Contents/Developer"
+
+    - name: Windows - Tools paths
+      if: startsWith(matrix.os, 'windows')
+      run: |
+        echo "::set-env name=HUNTER_GIT_EXECUTABLE::C:/Program Files/Git/bin/git.exe"
+        echo "::set-env name=MINGW_PATH::C:\ProgramData\chocolatey\bin"
+        echo "::set-env name=MSYS_PATH::C:\msys64\usr\bin"
+        echo "::set-env name=VS150COMNTOOLS::C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\Common7\Tools"
+
+    - name: Windows / VS - Add msbuild to PATH
+      if: startsWith(matrix.toolchain, 'vs-14')
+      uses: microsoft/setup-msbuild@v1.0.1
+      with:
+        vs-version: '14.0'
+
+    - name: Windows / MinGW - Remove entry with sh.exe from PATH to fix error with MinGW toolchain
+      if: startsWith(matrix.toolchain, 'mingw')
+      run: |
+        $NEW_PATH = $env:PATH -replace "C:\\Program Files\\Git\\bin;" -replace "C:\\Program Files\\Git\\usr\\bin;"
+        echo "::set-env name=PATH::${NEW_PATH}"
+
+    - name: Run build script
+      run: |
+        python jenkins.py
