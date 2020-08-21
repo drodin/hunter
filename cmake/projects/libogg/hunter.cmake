@@ -8,6 +8,17 @@ hunter_add_version(
 	PACKAGE_NAME
 	libogg
 	VERSION
+	"1.3.4"
+	URL
+	"https://github.com/xiph/ogg/archive/v1.3.4.tar.gz"
+	SHA1
+	aaa09336f78f747f8b280b59f3a176239fffe8e8
+)
+
+hunter_add_version(
+	PACKAGE_NAME
+	libogg
+	VERSION
 	"1.3.3-p0"
 	URL
 	"https://github.com/hunter-packages/ogg/archive/v1.3.3-p0.tar.gz"
