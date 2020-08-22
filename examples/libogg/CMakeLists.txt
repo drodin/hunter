@@ -11,8 +11,8 @@ project(download-libogg)
 
 # DOCUMENTATION_START {
 hunter_add_package(libogg)
-find_package(libogg CONFIG REQUIRED)
+find_package(Ogg CONFIG REQUIRED)
 
 add_executable(foo foo.cpp)
-target_link_libraries(foo libogg::ogg)
+target_link_libraries(foo Ogg::ogg)
 # DOCUMENTATION_END }
