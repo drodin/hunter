@@ -1,55 +1,45 @@
+name: CI
 on:
   push:
-    branches: [ pr.* ]
     paths: [ cmake/projects/** ]
   pull_request:
-    branches: [ github_actions_ci ]
     paths: [ cmake/projects/** ]
 
 jobs:
 
-  build:
-    runs-on: ${{ matrix.os }}
-    strategy:
-      fail-fast: false
-      matrix:
-        include:
-          # Linux
-          - { os: ubuntu-16.04, toolchain: clang-cxx17 }
-          - { os: ubuntu-16.04, toolchain: gcc-7-cxx17 }
-          - { os: ubuntu-16.04, toolchain: android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 }
-          - { os: ubuntu-16.04, toolchain: analyze-cxx17 }
-          - { os: ubuntu-16.04, toolchain: sanitize-address-cxx17 }
-          - { os: ubuntu-16.04, toolchain: sanitize-leak-cxx17 }
-          - { os: ubuntu-16.04, toolchain: sanitize-thread-cxx17 }
-          # OSX
-          - { os: macos-10.15,  toolchain: osx-10-13-make-cxx14 }
-          - { os: macos-10.15,  toolchain: osx-10-13-cxx14 }
-          - { os: macos-10.15,  toolchain: ios-nocodesign-13-2-dep-9-3 }
-          # Windows
-          - { os: windows-2016, toolchain: ninja-vs-15-2017-win64-cxx17 }
-          - { os: windows-2016, toolchain: nmake-vs-15-2017-win64-cxx17 }
-          - { os: windows-2016, toolchain: vs-15-2017-win64-cxx17 }
-          - { os: windows-2016, toolchain: vs-14-2015-sdk-8-1 }
-          - { os: windows-2016, toolchain: mingw-cxx17 }
-          - { os: windows-2016, toolchain: msys-cxx17 }
-
-    env:
-      TOOLCHAIN: ${{ matrix.toolchain }}
+  set_matrix:
+    runs-on: ubuntu-latest
+    outputs:
+      matrix: ${{ steps.set-matrix.outputs.matrix }}
 
     steps:
 
-    - name: on pull_request - Set project dir
-      if: github.event_name == 'pull_request'
-      shell: bash
-      run: |
-        echo "::set-env name=PROJECT_DIR::examples/${GITHUB_HEAD_REF#pr.}"
+    - name: Git checkout
+      uses: actions/checkout@v2
 
-    - name: on push - Set project dir
-      if: github.event_name == 'push'
-      shell: bash
+    - name: Get changed files and save them to ${HOME}/files.json
+      id: files
+      uses: lots0logs/gh-action-get-changed-files@2.1.4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Set matrix for subsequent build
+      id: set-matrix
       run: |
-        echo "::set-env name=PROJECT_DIR::examples/${GITHUB_REF#refs/heads/pr.}"
+        echo "::set-output name=matrix::`python .github/workflows/set_matrix.py`"
+
+  build:
+    needs: set_matrix
+    runs-on: ${{ matrix.os }}
+    strategy:
+      fail-fast: false
+      matrix: ${{ fromJson(needs.set_matrix.outputs.matrix) }}
+
+    env:
+      TOOLCHAIN: ${{ matrix.toolchain }}
+      PROJECT_DIR: examples/${{ matrix.example }}
+
+    steps:
 
     - name: Git checkout with submodules
       uses: actions/checkout@v2
