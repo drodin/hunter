@@ -1,9 +1,14 @@
 name: CI
 on:
   push:
-    paths: [ cmake/projects/** ]
+    paths: [ 'cmake/projects/**' ]
   pull_request:
-    paths: [ cmake/projects/** ]
+    paths: [ 'cmake/projects/**' ]
+  workflow_dispatch:
+    inputs:
+      project:
+        description: 'Project name'
+        required: true
 
 jobs:
 
@@ -17,7 +22,13 @@ jobs:
     - name: Git checkout
       uses: actions/checkout@v2
 
+    - name: Manual dispatch, get project name from input
+      if: ${{ github.event_name == 'workflow_dispatch' }}
+      run: |
+        echo '["cmake/projects/${{ github.event.inputs.project }}/hunter.cmake"]' > ${HOME}/files.json
+
     - name: Get changed files and save them to ${HOME}/files.json
+      if: ${{ github.event_name != 'workflow_dispatch' }}
       id: files
       uses: lots0logs/gh-action-get-changed-files@2.1.4
       with:
@@ -26,7 +37,12 @@ jobs:
     - name: Set matrix for subsequent build
       id: set-matrix
       run: |
-        echo "::set-output name=matrix::`python .github/workflows/set_matrix.py`"
+        MATRIX=`python .github/workflows/set_matrix.py`
+        if [ "${MATRIX}" ]; then
+          echo "::set-output name=matrix::${MATRIX}"
+        else
+          exit 1
+        fi
 
   build:
     needs: set_matrix

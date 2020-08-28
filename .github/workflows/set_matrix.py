@@ -11,7 +11,8 @@ with open(os.environ.get('HOME') + '/files.json') as json_files:
   for file in files:
     if p.match(file):
       project = p.match(file).group(1)
-      projects.add(project)
+      if os.path.isdir('cmake/projects/' + project):
+        projects.add(project)
 
 if projects:
   include = []
