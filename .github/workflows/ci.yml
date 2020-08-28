@@ -76,3 +76,10 @@ jobs:
       if: "startsWith(matrix.os, 'windows')"
       run: |
         ${{ matrix.script }}
+
+    - name: Save log artifacts
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v2
+      with:
+        name: ${{ matrix.example }}.${{ matrix.toolchain }}.${{ job.status }}.log
+        path: _testing/_logs/polly/${{ matrix.toolchain }}/log.txt
