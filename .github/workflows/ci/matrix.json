@@ -1,20 +1,20 @@
 {
     "include": [
-        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "clang-cxx17", "script": ".github/workflows/ci/build.sh" },
-        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "gcc-7-cxx17", "script": ".github/workflows/ci/build.sh" },
-        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "android-ndk-r17-api-24-arm64-v8a-clang-libcxx14", "script": ".github/workflows/ci/build.sh" },
-        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "analyze-cxx17", "script": ".github/workflows/ci/build.sh" },
-        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "sanitize-address-cxx17", "script": ".github/workflows/ci/build.sh" },
-        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "sanitize-leak-cxx17", "script": ".github/workflows/ci/build.sh" },
-        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "sanitize-thread-cxx17", "script": ".github/workflows/ci/build.sh" },
-        { "example": "foo", "os": "macos-10.15",  "toolchain": "osx-10-13-make-cxx14", "script": ".github/workflows/ci/build.sh" },
-        { "example": "foo", "os": "macos-10.15",  "toolchain": "osx-10-13-cxx14", "script": ".github/workflows/ci/build.sh" },
-        { "example": "foo", "os": "macos-10.15",  "toolchain": "ios-nocodesign-13-2-dep-9-3", "script": ".github/workflows/ci/build.sh" },
-        { "example": "foo", "os": "windows-2016", "toolchain": "ninja-vs-15-2017-win64-cxx17", "script": ".github/workflows/ci/build.cmd" },
-        { "example": "foo", "os": "windows-2016", "toolchain": "nmake-vs-15-2017-win64-cxx17", "script": ".github/workflows/ci/build.cmd" },
-        { "example": "foo", "os": "windows-2016", "toolchain": "vs-15-2017-win64-cxx17", "script": ".github/workflows/ci/build.cmd" },
-        { "example": "foo", "os": "windows-2016", "toolchain": "vs-14-2015-sdk-8-1", "script": ".github/workflows/ci/build.cmd" },
-        { "example": "foo", "os": "windows-2016", "toolchain": "mingw-cxx17", "script": ".github/workflows/ci/build.cmd" },
-        { "example": "foo", "os": "windows-2016", "toolchain": "msys-cxx17", "script": ".github/workflows/ci/build.cmd" }
+        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "clang-cxx17", "python": "3.8", "script": ".github/workflows/ci/build.sh" },
+        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "gcc-7-cxx17", "python": "3.8", "script": ".github/workflows/ci/build.sh" },
+        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "android-ndk-r17-api-24-arm64-v8a-clang-libcxx14", "python": "3.8", "script": ".github/workflows/ci/build.sh" },
+        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "analyze-cxx17", "python": "3.8", "script": ".github/workflows/ci/build.sh" },
+        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "sanitize-address-cxx17", "python": "3.8", "script": ".github/workflows/ci/build.sh" },
+        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "sanitize-leak-cxx17", "python": "3.8", "script": ".github/workflows/ci/build.sh" },
+        { "example": "foo", "os": "ubuntu-16.04", "toolchain": "sanitize-thread-cxx17", "python": "3.8", "script": ".github/workflows/ci/build.sh" },
+        { "example": "foo", "os": "macos-10.15",  "toolchain": "osx-10-13-make-cxx14", "python": "3.8", "script": ".github/workflows/ci/build.sh" },
+        { "example": "foo", "os": "macos-10.15",  "toolchain": "osx-10-13-cxx14", "python": "3.8", "script": ".github/workflows/ci/build.sh" },
+        { "example": "foo", "os": "macos-10.15",  "toolchain": "ios-nocodesign-13-2-dep-9-3", "python": "3.8", "script": ".github/workflows/ci/build.sh" },
+        { "example": "foo", "os": "windows-2016", "toolchain": "ninja-vs-15-2017-win64-cxx17", "python": "3.8", "script": ".github/workflows/ci/build.cmd" },
+        { "example": "foo", "os": "windows-2016", "toolchain": "nmake-vs-15-2017-win64-cxx17", "python": "3.8", "script": ".github/workflows/ci/build.cmd" },
+        { "example": "foo", "os": "windows-2016", "toolchain": "vs-15-2017-win64-cxx17", "python": "3.8", "script": ".github/workflows/ci/build.cmd" },
+        { "example": "foo", "os": "windows-2016", "toolchain": "vs-14-2015-sdk-8-1", "python": "3.8", "script": ".github/workflows/ci/build.cmd" },
+        { "example": "foo", "os": "windows-2016", "toolchain": "mingw-cxx17", "python": "3.8", "script": ".github/workflows/ci/build.cmd" },
+        { "example": "foo", "os": "windows-2016", "toolchain": "msys-cxx17", "python": "3.8", "script": ".github/workflows/ci/build.cmd" }
     ]
 }
