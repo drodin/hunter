@@ -45,6 +45,7 @@ jobs:
         fi
 
   build:
+    name: ${{ matrix.example }} ${{ matrix.toolchain }} ${{ matrix.os }}
     needs: set_matrix
     runs-on: ${{ matrix.os }}
     strategy:
@@ -81,9 +82,35 @@ jobs:
       run: |
         ${{ matrix.script }}
 
-    - name: Save log artifacts
-      if: always()
-      uses: actions/upload-artifact@v2
+  set_status:
+    needs: [ set_matrix, build ]
+    if: always() && needs.set_matrix.result == 'success' && github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+
+    steps:
+
+    - name: Git checkout
+      uses: actions/checkout@v2
+
+    - name: Get job status via GitHub API
+      uses: octokit/request-action@v2.x
+      id: get_job_data
       with:
-        name: ${{ matrix.example }}.${{ matrix.toolchain }}.${{ job.status }}.log
-        path: _testing/_logs/polly/${{ matrix.toolchain }}/log.txt
+        route: GET /repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Parse job status
+      run: |
+        mkdir job_data
+        echo '${{ steps.get_job_data.outputs.data }}' > job_data.json
+        python .github/workflows/set_status.py
+
+    - name: Deploy job status to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3.7.0-8
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: job_data
+        destination_dir: _data/projects
+        keep_files: true
+        enable_jekyll: true
