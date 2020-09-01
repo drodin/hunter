@@ -23,12 +23,12 @@ jobs:
       uses: actions/checkout@v2
 
     - name: Manual dispatch, get project name from input
-      if: ${{ github.event_name == 'workflow_dispatch' }}
+      if: github.event_name == 'workflow_dispatch'
       run: |
         echo '["cmake/projects/${{ github.event.inputs.project }}/hunter.cmake"]' > ${HOME}/files.json
 
     - name: Get changed files and save them to ${HOME}/files.json
-      if: ${{ github.event_name != 'workflow_dispatch' }}
+      if: github.event_name != 'workflow_dispatch'
       id: files
       uses: lots0logs/gh-action-get-changed-files@2.1.4
       with:
@@ -67,18 +67,22 @@ jobs:
       with:
         python-version: ${{ matrix.python }}
 
+    - name: Upgrade pip
+      run: |
+        python -m pip install --upgrade pip
+
     - name: Build on Unix
-      if: "!startsWith(matrix.os, 'windows')"
+      if: runner.os != 'Windows'
       run: |
         bash ${{ matrix.script }}
 
     - name: Build on Windows
-      if: "startsWith(matrix.os, 'windows')"
+      if: runner.os == 'Windows'
       run: |
         ${{ matrix.script }}
 
     - name: Save log artifacts
-      if: ${{ always() }}
+      if: always()
       uses: actions/upload-artifact@v2
       with:
         name: ${{ matrix.example }}.${{ matrix.toolchain }}.${{ job.status }}.log

@@ -1,7 +1,4 @@
-#!/bin/bash
-
 # Install Python package 'requests'
-python -m pip install --upgrade pip
 pip install requests
 pip install gitpython
 
@@ -24,8 +21,10 @@ export ANDROID_NDK_r15c="`pwd`/_ci/android-ndk-r15c"
 export ANDROID_NDK_r16b="`pwd`/_ci/android-ndk-r16b"
 export ANDROID_NDK_r17="`pwd`/_ci/android-ndk-r17"
 
-# OSX - Use Xcode 11.3.1 instead of default 11.6
-export DEVELOPER_DIR="/Applications/Xcode_11.3.1.app/Contents/Developer"
+# Use Xcode 11.3.1 instead of default 11.6 (for ios-13-2 toolchain, no iOS 13.2 SDK in Xcode 11.6)
+if [[ "$TOOLCHAIN" =~ "ios-nocodesign-13-2" ]]; then
+    export DEVELOPER_DIR="/Applications/Xcode_11.3.1.app/Contents/Developer"
+fi
 
 # Run build script
 python jenkins.py
