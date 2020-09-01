@@ -1,36 +1,48 @@
+import os
 import sys
 import json
 import re
-import os
+
+try:
+  with open(os.environ.get('HOME') + '/files.json') as json_files:
+    files = json.load(json_files)
+except IOError:
+  sys.exit('Can\'t read changed files from files.json')
 
 projects = set()
 
-with open(os.environ.get('HOME') + '/files.json') as json_files:
-  p = re.compile('cmake/projects/([^/]+)')
-  files = json.load(json_files)
-  for file in files:
-    if p.match(file):
-      project = p.match(file).group(1)
-      if os.path.isdir('cmake/projects/' + project):
-        projects.add(project)
+p = re.compile('cmake/projects/([^/]+)')
+for file in files:
+  if p.match(file):
+    project = p.match(file).group(1)
+    if os.path.isdir('cmake/projects/' + project):
+      projects.add(project)
 
 if projects:
+  dafault_dir = '.github/workflows/ci/'
+
+  with open(dafault_dir + 'matrix.json') as json_matrix:
+    default_matrix = json.load(json_matrix)
+
   include = []
-  with open('.github/workflows/ci/matrix.json') as json_matrix:
-    matrix = json.load(json_matrix)
-    for project in projects:
-      matrix_override = 'cmake/projects/' + project + '/ci/matrix.json';
-      if os.path.isfile(matrix_override):
-        with open(matrix_override) as json_matrix_override:
-          project_matrix = json.load(json_matrix_override)
-          for project_leg in project_matrix['include']:
-            include.append(project_leg)
+  for project in projects:
+    project_dir = 'cmake/projects/' + project + '/ci/';
+
+    matrix_override = project_dir + 'matrix.json';
+    if os.path.isfile(matrix_override):
+      with open(matrix_override) as json_matrix_override:
+        project_matrix = json.load(json_matrix_override)
+    else:
+      project_matrix = [ dict(leg, example = project) for leg in default_matrix ]
+
+    for leg in project_matrix:
+      if (os.path.isfile(project_dir + leg['script'])):
+        leg['script'] = project_dir + leg['script']
       else:
-        for leg in matrix['include']:
-          project_leg = leg.copy()
-          project_leg['example'] = project
-          include.append(project_leg)
-    matrix['include'] = include
-    print(json.dumps(matrix))
+        leg['script'] = dafault_dir + leg['script']
+
+    include += project_matrix
+
+  print(json.dumps({'include': include}))
 else:
-  sys.exit('no projects')
+  sys.exit('No projects found')
