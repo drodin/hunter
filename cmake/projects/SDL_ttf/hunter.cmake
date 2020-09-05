@@ -10,6 +10,17 @@ hunter_add_version(
     PACKAGE_NAME
     SDL_ttf
     VERSION
+    "2.0.15-p0"
+    URL
+    "https://github.com/drodin/SDL_ttf/archive/hunter-2.0.15.zip"
+    SHA1
+    325e70a059cbbe648fd60e27a0ca73c49767365c
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    SDL_ttf
+    VERSION
     "2.0.14-p0"
     URL
     "https://github.com/hunter-packages/SDL_ttf/archive/v2.0.14-p0.tar.gz"
