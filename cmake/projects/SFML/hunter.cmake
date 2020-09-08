@@ -7,6 +7,28 @@ hunter_add_version(
     PACKAGE_NAME
     SFML
     VERSION
+    2.5.1-p1
+    URL
+    "https://github.com/drodin/SFML/archive/04e3629.tar.gz"
+    SHA1
+    7ffe57f3a92ec8358f19da13796cf5a2110dedbe
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    SFML
+    VERSION
+    2.5.1-gl4es-p1
+    URL
+    "https://github.com/drodin/SFML/archive/2adda56.tar.gz"
+    SHA1
+    bc2b4feb4d8076cedbd4527da9324dcb533c249b
+)
+
+hunter_add_version(
+    PACKAGE_NAME
+    SFML
+    VERSION
     2.5.1-p0
     URL
     "https://github.com/cpp-pm/SFML/archive/2.5.1-p0.tar.gz"
