@@ -10,6 +10,17 @@ hunter_add_version(
         PACKAGE_NAME
         SDL_mixer
         VERSION
+        "2.0.4-p0"
+        URL
+        "https://github.com/drodin/SDL_mixer/archive/hunter-2.0.4.zip"
+        SHA1
+        6f2217094b6ef676dea524e4fb233042d7735184
+)
+
+hunter_add_version(
+        PACKAGE_NAME
+        SDL_mixer
+        VERSION
         "2.0.1-p1"
         URL
         "https://github.com/hunter-packages/SDL_mixer/archive/v2.0.1-p1.tar.gz"
