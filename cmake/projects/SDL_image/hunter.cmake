@@ -10,6 +10,17 @@ hunter_add_version(
         PACKAGE_NAME
         SDL_image
         VERSION
+        "2.0.5-p0"
+        URL
+        "https://github.com/drodin/SDL_image/archive/refs/heads/hunter-2.0.5.zip"
+        SHA1
+        297058377d0c4547d966a72a34c2aa62b53be302
+)
+
+hunter_add_version(
+        PACKAGE_NAME
+        SDL_image
+        VERSION
         "2.0.1-p1"
         URL
         "https://github.com/hunter-packages/SDL_image_cmake/archive/2.0.1-p1.tar.gz"
