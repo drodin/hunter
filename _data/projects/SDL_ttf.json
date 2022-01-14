@@ -1,17 +1,17 @@
 [
     {
-        "id": 4812096441,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883203,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLDuQ",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096441",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096441?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7FAw",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883203",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883203?check_suite_focus=true",
         "status": "completed",
         "conclusion": "failure",
-        "started_at": "2022-01-14T02:39:38Z",
-        "completed_at": "2022-01-14T02:40:47Z",
+        "started_at": "2022-01-14T04:51:27Z",
+        "completed_at": "2022-01-14T04:52:38Z",
         "name": "SDL_ttf analyze-cxx17 ubuntu-20.04",
         "steps": [
             {
@@ -19,204 +19,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:38.000Z",
-                "completed_at": "2022-01-14T02:39:41.000Z"
+                "started_at": "2022-01-14T04:51:27.000Z",
+                "completed_at": "2022-01-14T04:51:30.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:41.000Z",
-                "completed_at": "2022-01-14T02:39:44.000Z"
+                "started_at": "2022-01-14T04:51:30.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:39:44.000Z",
-                "completed_at": "2022-01-14T02:39:44.000Z"
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2022-01-14T02:39:44.000Z",
-                "completed_at": "2022-01-14T02:39:44.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2022-01-14T02:39:44.000Z",
-                "completed_at": "2022-01-14T02:39:44.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:39:44.000Z",
-                "completed_at": "2022-01-14T02:39:44.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "failure",
                 "number": 7,
-                "started_at": "2022-01-14T02:39:44.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:52:38.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:47.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:52:38.000Z",
+                "completed_at": "2022-01-14T04:52:38.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:47.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:52:38.000Z",
+                "completed_at": "2022-01-14T04:52:38.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:47.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:52:38.000Z",
+                "completed_at": "2022-01-14T04:52:38.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:47.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:52:38.000Z",
+                "completed_at": "2022-01-14T04:52:38.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096441",
-        "labels": [
-            "ubuntu-20.04"
-        ],
-        "runner_id": 2,
-        "runner_name": "GitHub Actions 2",
-        "runner_group_id": 2,
-        "runner_group_name": "GitHub Actions"
-    },
-    {
-        "id": 4812096410,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
-        "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLDmg",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096410",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096410?check_suite_focus=true",
-        "status": "completed",
-        "conclusion": "success",
-        "started_at": "2022-01-14T02:39:41Z",
-        "completed_at": "2022-01-14T02:41:09Z",
-        "name": "SDL_ttf android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-20.04",
-        "steps": [
-            {
-                "name": "Set up job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 1,
-                "started_at": "2022-01-14T02:39:41.000Z",
-                "completed_at": "2022-01-14T02:39:44.000Z"
-            },
-            {
-                "name": "Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 2,
-                "started_at": "2022-01-14T02:39:44.000Z",
-                "completed_at": "2022-01-14T02:39:48.000Z"
-            },
-            {
-                "name": "Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 3,
-                "started_at": "2022-01-14T02:39:48.000Z",
-                "completed_at": "2022-01-14T02:39:48.000Z"
-            },
-            {
-                "name": "Set up Python environment variable (Unix)",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 4,
-                "started_at": "2022-01-14T02:39:48.000Z",
-                "completed_at": "2022-01-14T02:39:49.000Z"
-            },
-            {
-                "name": "Set up Python environment variable (Windows)",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 5,
-                "started_at": "2022-01-14T02:39:49.000Z",
-                "completed_at": "2022-01-14T02:39:49.000Z"
-            },
-            {
-                "name": "Extract branch name",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 6,
-                "started_at": "2022-01-14T02:39:49.000Z",
-                "completed_at": "2022-01-14T02:39:49.000Z"
-            },
-            {
-                "name": "Build on Unix",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 7,
-                "started_at": "2022-01-14T02:39:49.000Z",
-                "completed_at": "2022-01-14T02:41:09.000Z"
-            },
-            {
-                "name": "Build on Windows",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 8,
-                "started_at": "2022-01-14T02:41:09.000Z",
-                "completed_at": "2022-01-14T02:41:09.000Z"
-            },
-            {
-                "name": "Post Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 15,
-                "started_at": "2022-01-14T02:41:09.000Z",
-                "completed_at": "2022-01-14T02:41:09.000Z"
-            },
-            {
-                "name": "Post Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 16,
-                "started_at": "2022-01-14T02:41:09.000Z",
-                "completed_at": "2022-01-14T02:41:09.000Z"
-            },
-            {
-                "name": "Complete job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 17,
-                "started_at": "2022-01-14T02:41:09.000Z",
-                "completed_at": "2022-01-14T02:41:09.000Z"
-            }
-        ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096410",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883203",
         "labels": [
             "ubuntu-20.04"
         ],
@@ -226,110 +113,110 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096305,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883174,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLDMQ",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096305",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096305?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7E5g",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883174",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883174?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:40Z",
-        "completed_at": "2022-01-14T02:40:29Z",
-        "name": "SDL_ttf clang-cxx17 ubuntu-20.04",
+        "started_at": "2022-01-14T04:51:26Z",
+        "completed_at": "2022-01-14T04:52:30Z",
+        "name": "SDL_ttf android-ndk-r17-api-24-arm64-v8a-clang-libcxx14 ubuntu-20.04",
         "steps": [
             {
                 "name": "Set up job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:40.000Z",
-                "completed_at": "2022-01-14T02:39:42.000Z"
+                "started_at": "2022-01-14T04:51:26.000Z",
+                "completed_at": "2022-01-14T04:51:28.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:42.000Z",
-                "completed_at": "2022-01-14T02:39:46.000Z"
+                "started_at": "2022-01-14T04:51:28.000Z",
+                "completed_at": "2022-01-14T04:51:32.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:39:46.000Z",
-                "completed_at": "2022-01-14T02:39:46.000Z"
+                "started_at": "2022-01-14T04:51:32.000Z",
+                "completed_at": "2022-01-14T04:51:32.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2022-01-14T02:39:46.000Z",
-                "completed_at": "2022-01-14T02:39:46.000Z"
+                "started_at": "2022-01-14T04:51:32.000Z",
+                "completed_at": "2022-01-14T04:51:32.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2022-01-14T02:39:46.000Z",
-                "completed_at": "2022-01-14T02:39:46.000Z"
+                "started_at": "2022-01-14T04:51:32.000Z",
+                "completed_at": "2022-01-14T04:51:32.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:39:46.000Z",
-                "completed_at": "2022-01-14T02:39:46.000Z"
+                "started_at": "2022-01-14T04:51:32.000Z",
+                "completed_at": "2022-01-14T04:51:32.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2022-01-14T02:39:46.000Z",
-                "completed_at": "2022-01-14T02:40:28.000Z"
+                "started_at": "2022-01-14T04:51:32.000Z",
+                "completed_at": "2022-01-14T04:52:30.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:28.000Z",
-                "completed_at": "2022-01-14T02:40:28.000Z"
+                "started_at": "2022-01-14T04:52:30.000Z",
+                "completed_at": "2022-01-14T04:52:30.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:28.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
+                "started_at": "2022-01-14T04:52:30.000Z",
+                "completed_at": "2022-01-14T04:52:30.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:29.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
+                "started_at": "2022-01-14T04:52:30.000Z",
+                "completed_at": "2022-01-14T04:52:30.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:29.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
+                "started_at": "2022-01-14T04:52:30.000Z",
+                "completed_at": "2022-01-14T04:52:30.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096305",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883174",
         "labels": [
             "ubuntu-20.04"
         ],
@@ -339,18 +226,131 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096348,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883090,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLDXA",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096348",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096348?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7Ekg",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883090",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883090?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:43Z",
-        "completed_at": "2022-01-14T02:40:47Z",
+        "started_at": "2022-01-14T04:51:27Z",
+        "completed_at": "2022-01-14T04:52:27Z",
+        "name": "SDL_ttf clang-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-01-14T04:51:27.000Z",
+                "completed_at": "2022-01-14T04:51:30.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-01-14T04:51:30.000Z",
+                "completed_at": "2022-01-14T04:51:36.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-01-14T04:51:36.000Z",
+                "completed_at": "2022-01-14T04:51:37.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-01-14T04:51:37.000Z",
+                "completed_at": "2022-01-14T04:51:37.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-01-14T04:51:37.000Z",
+                "completed_at": "2022-01-14T04:51:37.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-01-14T04:51:37.000Z",
+                "completed_at": "2022-01-14T04:51:37.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2022-01-14T04:51:37.000Z",
+                "completed_at": "2022-01-14T04:52:26.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-01-14T04:52:26.000Z",
+                "completed_at": "2022-01-14T04:52:26.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2022-01-14T04:52:26.000Z",
+                "completed_at": "2022-01-14T04:52:26.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-01-14T04:52:26.000Z",
+                "completed_at": "2022-01-14T04:52:27.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-01-14T04:52:27.000Z",
+                "completed_at": "2022-01-14T04:52:27.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883090",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 2,
+        "runner_name": "GitHub Actions 2",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 4812883105,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7EoQ",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883105",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883105?check_suite_focus=true",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2022-01-14T04:51:27Z",
+        "completed_at": "2022-01-14T04:52:26Z",
         "name": "SDL_ttf gcc-7-cxx17 ubuntu-20.04",
         "steps": [
             {
@@ -358,91 +358,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:43.000Z",
-                "completed_at": "2022-01-14T02:39:46.000Z"
+                "started_at": "2022-01-14T04:51:27.000Z",
+                "completed_at": "2022-01-14T04:51:30.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:46.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
+                "started_at": "2022-01-14T04:51:30.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:51:35.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
+                "started_at": "2022-01-14T04:51:35.000Z",
+                "completed_at": "2022-01-14T04:51:35.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
+                "started_at": "2022-01-14T04:51:35.000Z",
+                "completed_at": "2022-01-14T04:51:35.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
+                "started_at": "2022-01-14T04:51:35.000Z",
+                "completed_at": "2022-01-14T04:51:35.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:51:35.000Z",
+                "completed_at": "2022-01-14T04:52:26.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:47.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:52:26.000Z",
+                "completed_at": "2022-01-14T04:52:26.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:47.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:52:26.000Z",
+                "completed_at": "2022-01-14T04:52:26.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:47.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:52:26.000Z",
+                "completed_at": "2022-01-14T04:52:26.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:47.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:52:26.000Z",
+                "completed_at": "2022-01-14T04:52:26.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096348",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883105",
         "labels": [
             "ubuntu-20.04"
         ],
@@ -452,18 +452,18 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096373,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883131,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLDdQ",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096373",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096373?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7Euw",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883131",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883131?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:41Z",
-        "completed_at": "2022-01-14T02:40:42Z",
+        "started_at": "2022-01-14T04:51:27Z",
+        "completed_at": "2022-01-14T04:52:17Z",
         "name": "SDL_ttf gcc-8-cxx17-fpic ubuntu-20.04",
         "steps": [
             {
@@ -471,204 +471,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:41.000Z",
-                "completed_at": "2022-01-14T02:39:44.000Z"
+                "started_at": "2022-01-14T04:51:27.000Z",
+                "completed_at": "2022-01-14T04:51:30.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:44.000Z",
-                "completed_at": "2022-01-14T02:39:47.000Z"
+                "started_at": "2022-01-14T04:51:30.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:39:47.000Z",
-                "completed_at": "2022-01-14T02:39:48.000Z"
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2022-01-14T02:39:48.000Z",
-                "completed_at": "2022-01-14T02:39:48.000Z"
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2022-01-14T02:39:48.000Z",
-                "completed_at": "2022-01-14T02:39:48.000Z"
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:39:48.000Z",
-                "completed_at": "2022-01-14T02:39:48.000Z"
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2022-01-14T02:39:48.000Z",
-                "completed_at": "2022-01-14T02:40:42.000Z"
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:52:17.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:42.000Z",
-                "completed_at": "2022-01-14T02:40:42.000Z"
+                "started_at": "2022-01-14T04:52:17.000Z",
+                "completed_at": "2022-01-14T04:52:17.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:42.000Z",
-                "completed_at": "2022-01-14T02:40:42.000Z"
+                "started_at": "2022-01-14T04:52:17.000Z",
+                "completed_at": "2022-01-14T04:52:17.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:42.000Z",
-                "completed_at": "2022-01-14T02:40:42.000Z"
+                "started_at": "2022-01-14T04:52:17.000Z",
+                "completed_at": "2022-01-14T04:52:17.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:42.000Z",
-                "completed_at": "2022-01-14T02:40:42.000Z"
+                "started_at": "2022-01-14T04:52:17.000Z",
+                "completed_at": "2022-01-14T04:52:17.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096373",
-        "labels": [
-            "ubuntu-20.04"
-        ],
-        "runner_id": 5,
-        "runner_name": "GitHub Actions 5",
-        "runner_group_id": 2,
-        "runner_group_name": "GitHub Actions"
-    },
-    {
-        "id": 4812096395,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
-        "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLDiw",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096395",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096395?check_suite_focus=true",
-        "status": "completed",
-        "conclusion": "success",
-        "started_at": "2022-01-14T02:39:41Z",
-        "completed_at": "2022-01-14T02:40:30Z",
-        "name": "SDL_ttf gcc-9-cxx17-fpic ubuntu-20.04",
-        "steps": [
-            {
-                "name": "Set up job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 1,
-                "started_at": "2022-01-14T02:39:41.000Z",
-                "completed_at": "2022-01-14T02:39:44.000Z"
-            },
-            {
-                "name": "Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 2,
-                "started_at": "2022-01-14T02:39:44.000Z",
-                "completed_at": "2022-01-14T02:39:49.000Z"
-            },
-            {
-                "name": "Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 3,
-                "started_at": "2022-01-14T02:39:49.000Z",
-                "completed_at": "2022-01-14T02:39:49.000Z"
-            },
-            {
-                "name": "Set up Python environment variable (Unix)",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 4,
-                "started_at": "2022-01-14T02:39:49.000Z",
-                "completed_at": "2022-01-14T02:39:49.000Z"
-            },
-            {
-                "name": "Set up Python environment variable (Windows)",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 5,
-                "started_at": "2022-01-14T02:39:49.000Z",
-                "completed_at": "2022-01-14T02:39:49.000Z"
-            },
-            {
-                "name": "Extract branch name",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 6,
-                "started_at": "2022-01-14T02:39:49.000Z",
-                "completed_at": "2022-01-14T02:39:49.000Z"
-            },
-            {
-                "name": "Build on Unix",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 7,
-                "started_at": "2022-01-14T02:39:49.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
-            },
-            {
-                "name": "Build on Windows",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 8,
-                "started_at": "2022-01-14T02:40:29.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
-            },
-            {
-                "name": "Post Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 15,
-                "started_at": "2022-01-14T02:40:29.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
-            },
-            {
-                "name": "Post Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 16,
-                "started_at": "2022-01-14T02:40:29.000Z",
-                "completed_at": "2022-01-14T02:40:30.000Z"
-            },
-            {
-                "name": "Complete job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 17,
-                "started_at": "2022-01-14T02:40:30.000Z",
-                "completed_at": "2022-01-14T02:40:30.000Z"
-            }
-        ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096395",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883131",
         "labels": [
             "ubuntu-20.04"
         ],
@@ -678,18 +565,131 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096680,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883152,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLEqA",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096680",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096680?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7E0A",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883152",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883152?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:57Z",
-        "completed_at": "2022-01-14T02:42:55Z",
+        "started_at": "2022-01-14T04:51:27Z",
+        "completed_at": "2022-01-14T04:52:15Z",
+        "name": "SDL_ttf gcc-9-cxx17-fpic ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-01-14T04:51:27.000Z",
+                "completed_at": "2022-01-14T04:51:29.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-01-14T04:51:29.000Z",
+                "completed_at": "2022-01-14T04:51:32.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-01-14T04:51:32.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:52:15.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-01-14T04:52:15.000Z",
+                "completed_at": "2022-01-14T04:52:15.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2022-01-14T04:52:15.000Z",
+                "completed_at": "2022-01-14T04:52:15.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-01-14T04:52:15.000Z",
+                "completed_at": "2022-01-14T04:52:15.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-01-14T04:52:15.000Z",
+                "completed_at": "2022-01-14T04:52:15.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883152",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 5,
+        "runner_name": "GitHub Actions 5",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 4812883343,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7Fjw",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883343",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883343?check_suite_focus=true",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2022-01-14T04:51:31Z",
+        "completed_at": "2022-01-14T04:54:09Z",
         "name": "SDL_ttf ios-nocodesign-14-4-dep-10-0-arm64 macos-10.15",
         "steps": [
             {
@@ -697,91 +697,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:57.000Z",
-                "completed_at": "2022-01-14T02:40:03.000Z"
+                "started_at": "2022-01-14T04:51:32.000Z",
+                "completed_at": "2022-01-14T04:51:35.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:40:03.000Z",
-                "completed_at": "2022-01-14T02:40:39.000Z"
+                "started_at": "2022-01-14T04:51:35.000Z",
+                "completed_at": "2022-01-14T04:51:45.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:40:39.000Z",
-                "completed_at": "2022-01-14T02:40:40.000Z"
+                "started_at": "2022-01-14T04:51:45.000Z",
+                "completed_at": "2022-01-14T04:51:45.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2022-01-14T02:40:40.000Z",
-                "completed_at": "2022-01-14T02:40:40.000Z"
+                "started_at": "2022-01-14T04:51:45.000Z",
+                "completed_at": "2022-01-14T04:51:45.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2022-01-14T02:40:40.000Z",
-                "completed_at": "2022-01-14T02:40:40.000Z"
+                "started_at": "2022-01-14T04:51:45.000Z",
+                "completed_at": "2022-01-14T04:51:45.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:40:40.000Z",
-                "completed_at": "2022-01-14T02:40:40.000Z"
+                "started_at": "2022-01-14T04:51:45.000Z",
+                "completed_at": "2022-01-14T04:51:45.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2022-01-14T02:40:40.000Z",
-                "completed_at": "2022-01-14T02:42:54.000Z"
+                "started_at": "2022-01-14T04:51:45.000Z",
+                "completed_at": "2022-01-14T04:54:08.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2022-01-14T02:42:54.000Z",
-                "completed_at": "2022-01-14T02:42:54.000Z"
+                "started_at": "2022-01-14T04:54:08.000Z",
+                "completed_at": "2022-01-14T04:54:08.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:42:54.000Z",
-                "completed_at": "2022-01-14T02:42:54.000Z"
+                "started_at": "2022-01-14T04:54:08.000Z",
+                "completed_at": "2022-01-14T04:54:08.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:42:54.000Z",
-                "completed_at": "2022-01-14T02:42:54.000Z"
+                "started_at": "2022-01-14T04:54:08.000Z",
+                "completed_at": "2022-01-14T04:54:08.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:42:54.000Z",
-                "completed_at": "2022-01-14T02:42:55.000Z"
+                "started_at": "2022-01-14T04:54:08.000Z",
+                "completed_at": "2022-01-14T04:54:09.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096680",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883343",
         "labels": [
             "macos-10.15"
         ],
@@ -791,18 +791,18 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096844,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883489,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLFTA",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096844",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096844?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7GIQ",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883489",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883489?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:40Z",
-        "completed_at": "2022-01-14T02:40:43Z",
+        "started_at": "2022-01-14T04:51:26Z",
+        "completed_at": "2022-01-14T04:53:49Z",
         "name": "SDL_ttf mingw-cxx17 windows-2016",
         "steps": [
             {
@@ -810,91 +810,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:40.000Z",
-                "completed_at": "2022-01-14T02:39:42.000Z"
+                "started_at": "2022-01-14T04:51:26.000Z",
+                "completed_at": "2022-01-14T04:51:28.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:42.000Z",
-                "completed_at": "2022-01-14T02:40:08.000Z"
+                "started_at": "2022-01-14T04:51:28.000Z",
+                "completed_at": "2022-01-14T04:51:55.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:40:08.000Z",
-                "completed_at": "2022-01-14T02:40:09.000Z"
+                "started_at": "2022-01-14T04:51:55.000Z",
+                "completed_at": "2022-01-14T04:51:56.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 4,
-                "started_at": "2022-01-14T02:40:09.000Z",
-                "completed_at": "2022-01-14T02:40:09.000Z"
+                "started_at": "2022-01-14T04:51:56.000Z",
+                "completed_at": "2022-01-14T04:51:56.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2022-01-14T02:40:09.000Z",
-                "completed_at": "2022-01-14T02:40:10.000Z"
+                "started_at": "2022-01-14T04:51:56.000Z",
+                "completed_at": "2022-01-14T04:51:57.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:40:10.000Z",
-                "completed_at": "2022-01-14T02:40:10.000Z"
+                "started_at": "2022-01-14T04:51:57.000Z",
+                "completed_at": "2022-01-14T04:51:58.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 7,
-                "started_at": "2022-01-14T02:40:10.000Z",
-                "completed_at": "2022-01-14T02:40:10.000Z"
+                "started_at": "2022-01-14T04:51:58.000Z",
+                "completed_at": "2022-01-14T04:51:58.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:10.000Z",
-                "completed_at": "2022-01-14T02:40:35.000Z"
+                "started_at": "2022-01-14T04:51:58.000Z",
+                "completed_at": "2022-01-14T04:53:40.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:35.000Z",
-                "completed_at": "2022-01-14T02:40:35.000Z"
+                "started_at": "2022-01-14T04:53:40.000Z",
+                "completed_at": "2022-01-14T04:53:40.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:35.000Z",
-                "completed_at": "2022-01-14T02:40:43.000Z"
+                "started_at": "2022-01-14T04:53:40.000Z",
+                "completed_at": "2022-01-14T04:53:49.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:43.000Z",
-                "completed_at": "2022-01-14T02:40:43.000Z"
+                "started_at": "2022-01-14T04:53:49.000Z",
+                "completed_at": "2022-01-14T04:53:49.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096844",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883489",
         "labels": [
             "windows-2016"
         ],
@@ -904,18 +904,18 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096870,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883511,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLFZg",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096870",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096870?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7GNw",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883511",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883511?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:42Z",
-        "completed_at": "2022-01-14T02:40:37Z",
+        "started_at": "2022-01-14T04:51:26Z",
+        "completed_at": "2022-01-14T04:54:33Z",
         "name": "SDL_ttf msys-cxx17 windows-2016",
         "steps": [
             {
@@ -923,91 +923,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:42.000Z",
-                "completed_at": "2022-01-14T02:39:46.000Z"
+                "started_at": "2022-01-14T04:51:26.000Z",
+                "completed_at": "2022-01-14T04:51:29.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:46.000Z",
-                "completed_at": "2022-01-14T02:40:07.000Z"
+                "started_at": "2022-01-14T04:51:29.000Z",
+                "completed_at": "2022-01-14T04:51:50.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:40:07.000Z",
-                "completed_at": "2022-01-14T02:40:07.000Z"
+                "started_at": "2022-01-14T04:51:50.000Z",
+                "completed_at": "2022-01-14T04:51:50.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 4,
-                "started_at": "2022-01-14T02:40:07.000Z",
-                "completed_at": "2022-01-14T02:40:07.000Z"
+                "started_at": "2022-01-14T04:51:50.000Z",
+                "completed_at": "2022-01-14T04:51:50.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2022-01-14T02:40:07.000Z",
-                "completed_at": "2022-01-14T02:40:08.000Z"
+                "started_at": "2022-01-14T04:51:50.000Z",
+                "completed_at": "2022-01-14T04:51:51.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:40:08.000Z",
-                "completed_at": "2022-01-14T02:40:08.000Z"
+                "started_at": "2022-01-14T04:51:51.000Z",
+                "completed_at": "2022-01-14T04:51:51.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 7,
-                "started_at": "2022-01-14T02:40:08.000Z",
-                "completed_at": "2022-01-14T02:40:08.000Z"
+                "started_at": "2022-01-14T04:51:51.000Z",
+                "completed_at": "2022-01-14T04:51:51.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:08.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
+                "started_at": "2022-01-14T04:51:51.000Z",
+                "completed_at": "2022-01-14T04:54:25.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:29.000Z",
-                "completed_at": "2022-01-14T02:40:30.000Z"
+                "started_at": "2022-01-14T04:54:25.000Z",
+                "completed_at": "2022-01-14T04:54:25.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:30.000Z",
-                "completed_at": "2022-01-14T02:40:37.000Z"
+                "started_at": "2022-01-14T04:54:25.000Z",
+                "completed_at": "2022-01-14T04:54:33.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:37.000Z",
-                "completed_at": "2022-01-14T02:40:37.000Z"
+                "started_at": "2022-01-14T04:54:33.000Z",
+                "completed_at": "2022-01-14T04:54:33.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096870",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883511",
         "labels": [
             "windows-2016"
         ],
@@ -1017,18 +1017,18 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096716,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883361,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLEzA",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096716",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096716?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7FoQ",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883361",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883361?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:44Z",
-        "completed_at": "2022-01-14T02:40:52Z",
+        "started_at": "2022-01-14T04:51:28Z",
+        "completed_at": "2022-01-14T04:53:19Z",
         "name": "SDL_ttf ninja-vs-15-2017-win64-cxx17 windows-2016",
         "steps": [
             {
@@ -1036,91 +1036,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:44.000Z",
-                "completed_at": "2022-01-14T02:39:45.000Z"
+                "started_at": "2022-01-14T04:51:28.000Z",
+                "completed_at": "2022-01-14T04:51:31.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:45.000Z",
-                "completed_at": "2022-01-14T02:40:11.000Z"
+                "started_at": "2022-01-14T04:51:31.000Z",
+                "completed_at": "2022-01-14T04:51:55.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:40:11.000Z",
-                "completed_at": "2022-01-14T02:40:11.000Z"
+                "started_at": "2022-01-14T04:51:55.000Z",
+                "completed_at": "2022-01-14T04:51:56.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 4,
-                "started_at": "2022-01-14T02:40:11.000Z",
-                "completed_at": "2022-01-14T02:40:11.000Z"
+                "started_at": "2022-01-14T04:51:56.000Z",
+                "completed_at": "2022-01-14T04:51:56.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2022-01-14T02:40:11.000Z",
-                "completed_at": "2022-01-14T02:40:12.000Z"
+                "started_at": "2022-01-14T04:51:56.000Z",
+                "completed_at": "2022-01-14T04:51:57.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:40:12.000Z",
-                "completed_at": "2022-01-14T02:40:13.000Z"
+                "started_at": "2022-01-14T04:51:57.000Z",
+                "completed_at": "2022-01-14T04:51:57.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 7,
-                "started_at": "2022-01-14T02:40:13.000Z",
-                "completed_at": "2022-01-14T02:40:13.000Z"
+                "started_at": "2022-01-14T04:51:57.000Z",
+                "completed_at": "2022-01-14T04:51:57.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:13.000Z",
-                "completed_at": "2022-01-14T02:40:41.000Z"
+                "started_at": "2022-01-14T04:51:57.000Z",
+                "completed_at": "2022-01-14T04:53:09.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:41.000Z",
-                "completed_at": "2022-01-14T02:40:42.000Z"
+                "started_at": "2022-01-14T04:53:09.000Z",
+                "completed_at": "2022-01-14T04:53:09.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:42.000Z",
-                "completed_at": "2022-01-14T02:40:51.000Z"
+                "started_at": "2022-01-14T04:53:09.000Z",
+                "completed_at": "2022-01-14T04:53:19.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:51.000Z",
-                "completed_at": "2022-01-14T02:40:52.000Z"
+                "started_at": "2022-01-14T04:53:19.000Z",
+                "completed_at": "2022-01-14T04:53:19.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096716",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883361",
         "labels": [
             "windows-2016"
         ],
@@ -1130,18 +1130,18 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096748,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883385,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLE7A",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096748",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096748?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7FuQ",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883385",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883385?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:43Z",
-        "completed_at": "2022-01-14T02:40:44Z",
+        "started_at": "2022-01-14T04:51:27Z",
+        "completed_at": "2022-01-14T04:53:20Z",
         "name": "SDL_ttf nmake-vs-15-2017-win64-cxx17 windows-2016",
         "steps": [
             {
@@ -1149,91 +1149,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:43.000Z",
-                "completed_at": "2022-01-14T02:39:44.000Z"
+                "started_at": "2022-01-14T04:51:27.000Z",
+                "completed_at": "2022-01-14T04:51:30.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:44.000Z",
-                "completed_at": "2022-01-14T02:40:10.000Z"
+                "started_at": "2022-01-14T04:51:30.000Z",
+                "completed_at": "2022-01-14T04:51:54.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:40:10.000Z",
-                "completed_at": "2022-01-14T02:40:10.000Z"
+                "started_at": "2022-01-14T04:51:54.000Z",
+                "completed_at": "2022-01-14T04:51:54.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 4,
-                "started_at": "2022-01-14T02:40:10.000Z",
-                "completed_at": "2022-01-14T02:40:10.000Z"
+                "started_at": "2022-01-14T04:51:54.000Z",
+                "completed_at": "2022-01-14T04:51:54.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2022-01-14T02:40:10.000Z",
-                "completed_at": "2022-01-14T02:40:11.000Z"
+                "started_at": "2022-01-14T04:51:54.000Z",
+                "completed_at": "2022-01-14T04:51:55.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:40:11.000Z",
-                "completed_at": "2022-01-14T02:40:12.000Z"
+                "started_at": "2022-01-14T04:51:55.000Z",
+                "completed_at": "2022-01-14T04:51:56.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 7,
-                "started_at": "2022-01-14T02:40:12.000Z",
-                "completed_at": "2022-01-14T02:40:12.000Z"
+                "started_at": "2022-01-14T04:51:56.000Z",
+                "completed_at": "2022-01-14T04:51:56.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:12.000Z",
-                "completed_at": "2022-01-14T02:40:34.000Z"
+                "started_at": "2022-01-14T04:51:56.000Z",
+                "completed_at": "2022-01-14T04:53:11.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:34.000Z",
-                "completed_at": "2022-01-14T02:40:34.000Z"
+                "started_at": "2022-01-14T04:53:11.000Z",
+                "completed_at": "2022-01-14T04:53:11.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:34.000Z",
-                "completed_at": "2022-01-14T02:40:44.000Z"
+                "started_at": "2022-01-14T04:53:11.000Z",
+                "completed_at": "2022-01-14T04:53:20.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:44.000Z",
-                "completed_at": "2022-01-14T02:40:44.000Z"
+                "started_at": "2022-01-14T04:53:20.000Z",
+                "completed_at": "2022-01-14T04:53:20.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096748",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883385",
         "labels": [
             "windows-2016"
         ],
@@ -1243,18 +1243,18 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096609,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883300,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLEYQ",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096609",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096609?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7FZA",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883300",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883300?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:49Z",
-        "completed_at": "2022-01-14T02:40:58Z",
+        "started_at": "2022-01-14T04:51:33Z",
+        "completed_at": "2022-01-14T04:52:55Z",
         "name": "SDL_ttf osx-10-15-make-cxx14 macos-10.15",
         "steps": [
             {
@@ -1262,91 +1262,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:49.000Z",
-                "completed_at": "2022-01-14T02:39:52.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:51:37.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:52.000Z",
-                "completed_at": "2022-01-14T02:40:01.000Z"
+                "started_at": "2022-01-14T04:51:37.000Z",
+                "completed_at": "2022-01-14T04:51:46.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:40:01.000Z",
-                "completed_at": "2022-01-14T02:40:01.000Z"
+                "started_at": "2022-01-14T04:51:46.000Z",
+                "completed_at": "2022-01-14T04:51:46.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2022-01-14T02:40:01.000Z",
-                "completed_at": "2022-01-14T02:40:01.000Z"
+                "started_at": "2022-01-14T04:51:46.000Z",
+                "completed_at": "2022-01-14T04:51:46.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2022-01-14T02:40:01.000Z",
-                "completed_at": "2022-01-14T02:40:01.000Z"
+                "started_at": "2022-01-14T04:51:46.000Z",
+                "completed_at": "2022-01-14T04:51:46.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:40:01.000Z",
-                "completed_at": "2022-01-14T02:40:01.000Z"
+                "started_at": "2022-01-14T04:51:46.000Z",
+                "completed_at": "2022-01-14T04:51:46.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2022-01-14T02:40:01.000Z",
-                "completed_at": "2022-01-14T02:40:57.000Z"
+                "started_at": "2022-01-14T04:51:46.000Z",
+                "completed_at": "2022-01-14T04:52:54.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:57.000Z",
-                "completed_at": "2022-01-14T02:40:57.000Z"
+                "started_at": "2022-01-14T04:52:54.000Z",
+                "completed_at": "2022-01-14T04:52:54.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:57.000Z",
-                "completed_at": "2022-01-14T02:40:57.000Z"
+                "started_at": "2022-01-14T04:52:54.000Z",
+                "completed_at": "2022-01-14T04:52:55.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:57.000Z",
-                "completed_at": "2022-01-14T02:40:58.000Z"
+                "started_at": "2022-01-14T04:52:55.000Z",
+                "completed_at": "2022-01-14T04:52:55.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:58.000Z",
-                "completed_at": "2022-01-14T02:40:58.000Z"
+                "started_at": "2022-01-14T04:52:55.000Z",
+                "completed_at": "2022-01-14T04:52:55.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096609",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883300",
         "labels": [
             "macos-10.15"
         ],
@@ -1356,18 +1356,18 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096654,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883323,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLEjg",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096654",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096654?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7Few",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883323",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883323?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:47Z",
-        "completed_at": "2022-01-14T02:42:01Z",
+        "started_at": "2022-01-14T04:51:38Z",
+        "completed_at": "2022-01-14T04:53:41Z",
         "name": "SDL_ttf osx-11-1-arch-universal2-cxx17 macos-10.15",
         "steps": [
             {
@@ -1375,206 +1375,93 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:47.000Z",
-                "completed_at": "2022-01-14T02:39:50.000Z"
+                "started_at": "2022-01-14T04:51:38.000Z",
+                "completed_at": "2022-01-14T04:51:40.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:50.000Z",
-                "completed_at": "2022-01-14T02:39:56.000Z"
+                "started_at": "2022-01-14T04:51:40.000Z",
+                "completed_at": "2022-01-14T04:51:46.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:39:56.000Z",
-                "completed_at": "2022-01-14T02:39:57.000Z"
+                "started_at": "2022-01-14T04:51:46.000Z",
+                "completed_at": "2022-01-14T04:51:46.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2022-01-14T02:39:57.000Z",
-                "completed_at": "2022-01-14T02:39:57.000Z"
+                "started_at": "2022-01-14T04:51:46.000Z",
+                "completed_at": "2022-01-14T04:51:46.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2022-01-14T02:39:57.000Z",
-                "completed_at": "2022-01-14T02:39:57.000Z"
+                "started_at": "2022-01-14T04:51:46.000Z",
+                "completed_at": "2022-01-14T04:51:46.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:39:57.000Z",
-                "completed_at": "2022-01-14T02:39:57.000Z"
+                "started_at": "2022-01-14T04:51:46.000Z",
+                "completed_at": "2022-01-14T04:51:46.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2022-01-14T02:39:57.000Z",
-                "completed_at": "2022-01-14T02:42:01.000Z"
+                "started_at": "2022-01-14T04:51:46.000Z",
+                "completed_at": "2022-01-14T04:53:40.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2022-01-14T02:42:01.000Z",
-                "completed_at": "2022-01-14T02:42:01.000Z"
+                "started_at": "2022-01-14T04:53:40.000Z",
+                "completed_at": "2022-01-14T04:53:40.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:42:01.000Z",
-                "completed_at": "2022-01-14T02:42:01.000Z"
+                "started_at": "2022-01-14T04:53:40.000Z",
+                "completed_at": "2022-01-14T04:53:41.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:42:01.000Z",
-                "completed_at": "2022-01-14T02:42:01.000Z"
+                "started_at": "2022-01-14T04:53:41.000Z",
+                "completed_at": "2022-01-14T04:53:41.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:42:01.000Z",
-                "completed_at": "2022-01-14T02:42:01.000Z"
+                "started_at": "2022-01-14T04:53:41.000Z",
+                "completed_at": "2022-01-14T04:53:41.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096654",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883323",
         "labels": [
             "macos-10.15"
-        ],
-        "runner_id": 14,
-        "runner_name": "GitHub Actions 14",
-        "runner_group_id": 2,
-        "runner_group_name": "GitHub Actions"
-    },
-    {
-        "id": 4812096487,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
-        "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLD5w",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096487",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096487?check_suite_focus=true",
-        "status": "completed",
-        "conclusion": "success",
-        "started_at": "2022-01-14T02:39:43Z",
-        "completed_at": "2022-01-14T02:40:29Z",
-        "name": "SDL_ttf sanitize-address-cxx17 ubuntu-20.04",
-        "steps": [
-            {
-                "name": "Set up job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 1,
-                "started_at": "2022-01-14T02:39:43.000Z",
-                "completed_at": "2022-01-14T02:39:46.000Z"
-            },
-            {
-                "name": "Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 2,
-                "started_at": "2022-01-14T02:39:46.000Z",
-                "completed_at": "2022-01-14T02:39:50.000Z"
-            },
-            {
-                "name": "Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 3,
-                "started_at": "2022-01-14T02:39:50.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
-            },
-            {
-                "name": "Set up Python environment variable (Unix)",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 4,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
-            },
-            {
-                "name": "Set up Python environment variable (Windows)",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 5,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
-            },
-            {
-                "name": "Extract branch name",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 6,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
-            },
-            {
-                "name": "Build on Unix",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 7,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
-            },
-            {
-                "name": "Build on Windows",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 8,
-                "started_at": "2022-01-14T02:40:29.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
-            },
-            {
-                "name": "Post Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 15,
-                "started_at": "2022-01-14T02:40:29.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
-            },
-            {
-                "name": "Post Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 16,
-                "started_at": "2022-01-14T02:40:29.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
-            },
-            {
-                "name": "Complete job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 17,
-                "started_at": "2022-01-14T02:40:29.000Z",
-                "completed_at": "2022-01-14T02:40:29.000Z"
-            }
-        ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096487",
-        "labels": [
-            "ubuntu-20.04"
         ],
         "runner_id": 13,
         "runner_name": "GitHub Actions 13",
@@ -1582,18 +1469,131 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096530,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883230,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLEEg",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096530",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096530?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7FHg",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883230",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883230?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:42Z",
-        "completed_at": "2022-01-14T02:40:52Z",
+        "started_at": "2022-01-14T04:51:28Z",
+        "completed_at": "2022-01-14T04:52:24Z",
+        "name": "SDL_ttf sanitize-address-cxx17 ubuntu-20.04",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-01-14T04:51:28.000Z",
+                "completed_at": "2022-01-14T04:51:31.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-01-14T04:51:31.000Z",
+                "completed_at": "2022-01-14T04:51:36.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-01-14T04:51:36.000Z",
+                "completed_at": "2022-01-14T04:51:36.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 4,
+                "started_at": "2022-01-14T04:51:36.000Z",
+                "completed_at": "2022-01-14T04:51:36.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 5,
+                "started_at": "2022-01-14T04:51:36.000Z",
+                "completed_at": "2022-01-14T04:51:36.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-01-14T04:51:36.000Z",
+                "completed_at": "2022-01-14T04:51:36.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 7,
+                "started_at": "2022-01-14T04:51:36.000Z",
+                "completed_at": "2022-01-14T04:52:24.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 8,
+                "started_at": "2022-01-14T04:52:24.000Z",
+                "completed_at": "2022-01-14T04:52:24.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2022-01-14T04:52:24.000Z",
+                "completed_at": "2022-01-14T04:52:24.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-01-14T04:52:24.000Z",
+                "completed_at": "2022-01-14T04:52:24.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-01-14T04:52:24.000Z",
+                "completed_at": "2022-01-14T04:52:24.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883230",
+        "labels": [
+            "ubuntu-20.04"
+        ],
+        "runner_id": 14,
+        "runner_name": "GitHub Actions 14",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 4812883249,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7FMQ",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883249",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883249?check_suite_focus=true",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2022-01-14T04:51:28Z",
+        "completed_at": "2022-01-14T04:52:10Z",
         "name": "SDL_ttf sanitize-leak-cxx17 ubuntu-20.04",
         "steps": [
             {
@@ -1601,91 +1601,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:42.000Z",
-                "completed_at": "2022-01-14T02:39:45.000Z"
+                "started_at": "2022-01-14T04:51:28.000Z",
+                "completed_at": "2022-01-14T04:51:31.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:45.000Z",
-                "completed_at": "2022-01-14T02:39:50.000Z"
+                "started_at": "2022-01-14T04:51:31.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:39:50.000Z",
-                "completed_at": "2022-01-14T02:39:50.000Z"
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2022-01-14T02:39:50.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:39:51.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2022-01-14T02:39:51.000Z",
-                "completed_at": "2022-01-14T02:40:52.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:52:10.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:52.000Z",
-                "completed_at": "2022-01-14T02:40:52.000Z"
+                "started_at": "2022-01-14T04:52:10.000Z",
+                "completed_at": "2022-01-14T04:52:10.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:52.000Z",
-                "completed_at": "2022-01-14T02:40:52.000Z"
+                "started_at": "2022-01-14T04:52:10.000Z",
+                "completed_at": "2022-01-14T04:52:10.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:52.000Z",
-                "completed_at": "2022-01-14T02:40:52.000Z"
+                "started_at": "2022-01-14T04:52:10.000Z",
+                "completed_at": "2022-01-14T04:52:10.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:52.000Z",
-                "completed_at": "2022-01-14T02:40:52.000Z"
+                "started_at": "2022-01-14T04:52:10.000Z",
+                "completed_at": "2022-01-14T04:52:10.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096530",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883249",
         "labels": [
             "ubuntu-20.04"
         ],
@@ -1695,18 +1695,18 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096570,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883270,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLEOg",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096570",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096570?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7FRg",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883270",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883270?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:43Z",
-        "completed_at": "2022-01-14T02:40:48Z",
+        "started_at": "2022-01-14T04:51:28Z",
+        "completed_at": "2022-01-14T04:52:20Z",
         "name": "SDL_ttf sanitize-thread-cxx17 ubuntu-20.04",
         "steps": [
             {
@@ -1714,206 +1714,93 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:43.000Z",
-                "completed_at": "2022-01-14T02:39:45.000Z"
+                "started_at": "2022-01-14T04:51:28.000Z",
+                "completed_at": "2022-01-14T04:51:30.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:45.000Z",
-                "completed_at": "2022-01-14T02:39:50.000Z"
+                "started_at": "2022-01-14T04:51:30.000Z",
+                "completed_at": "2022-01-14T04:51:33.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:39:50.000Z",
-                "completed_at": "2022-01-14T02:39:50.000Z"
+                "started_at": "2022-01-14T04:51:33.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 4,
-                "started_at": "2022-01-14T02:39:50.000Z",
-                "completed_at": "2022-01-14T02:39:50.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 5,
-                "started_at": "2022-01-14T02:39:50.000Z",
-                "completed_at": "2022-01-14T02:39:50.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:39:50.000Z",
-                "completed_at": "2022-01-14T02:39:50.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:51:34.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 7,
-                "started_at": "2022-01-14T02:39:50.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:51:34.000Z",
+                "completed_at": "2022-01-14T04:52:20.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:47.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:52:20.000Z",
+                "completed_at": "2022-01-14T04:52:20.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:47.000Z",
-                "completed_at": "2022-01-14T02:40:47.000Z"
+                "started_at": "2022-01-14T04:52:20.000Z",
+                "completed_at": "2022-01-14T04:52:20.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:48.000Z",
-                "completed_at": "2022-01-14T02:40:48.000Z"
+                "started_at": "2022-01-14T04:52:20.000Z",
+                "completed_at": "2022-01-14T04:52:20.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:48.000Z",
-                "completed_at": "2022-01-14T02:40:48.000Z"
+                "started_at": "2022-01-14T04:52:20.000Z",
+                "completed_at": "2022-01-14T04:52:20.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096570",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883270",
         "labels": [
             "ubuntu-20.04"
-        ],
-        "runner_id": 16,
-        "runner_name": "GitHub Actions 16",
-        "runner_group_id": 2,
-        "runner_group_name": "GitHub Actions"
-    },
-    {
-        "id": 4812096829,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
-        "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLFPQ",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096829",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096829?check_suite_focus=true",
-        "status": "completed",
-        "conclusion": "success",
-        "started_at": "2022-01-14T02:39:43Z",
-        "completed_at": "2022-01-14T02:40:45Z",
-        "name": "SDL_ttf vs-14-2015-sdk-8-1 windows-2016",
-        "steps": [
-            {
-                "name": "Set up job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 1,
-                "started_at": "2022-01-14T02:39:43.000Z",
-                "completed_at": "2022-01-14T02:39:45.000Z"
-            },
-            {
-                "name": "Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 2,
-                "started_at": "2022-01-14T02:39:45.000Z",
-                "completed_at": "2022-01-14T02:40:10.000Z"
-            },
-            {
-                "name": "Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 3,
-                "started_at": "2022-01-14T02:40:10.000Z",
-                "completed_at": "2022-01-14T02:40:11.000Z"
-            },
-            {
-                "name": "Set up Python environment variable (Unix)",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 4,
-                "started_at": "2022-01-14T02:40:11.000Z",
-                "completed_at": "2022-01-14T02:40:11.000Z"
-            },
-            {
-                "name": "Set up Python environment variable (Windows)",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 5,
-                "started_at": "2022-01-14T02:40:11.000Z",
-                "completed_at": "2022-01-14T02:40:12.000Z"
-            },
-            {
-                "name": "Extract branch name",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 6,
-                "started_at": "2022-01-14T02:40:12.000Z",
-                "completed_at": "2022-01-14T02:40:12.000Z"
-            },
-            {
-                "name": "Build on Unix",
-                "status": "completed",
-                "conclusion": "skipped",
-                "number": 7,
-                "started_at": "2022-01-14T02:40:12.000Z",
-                "completed_at": "2022-01-14T02:40:12.000Z"
-            },
-            {
-                "name": "Build on Windows",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 8,
-                "started_at": "2022-01-14T02:40:12.000Z",
-                "completed_at": "2022-01-14T02:40:35.000Z"
-            },
-            {
-                "name": "Post Set up Python",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 15,
-                "started_at": "2022-01-14T02:40:35.000Z",
-                "completed_at": "2022-01-14T02:40:35.000Z"
-            },
-            {
-                "name": "Post Git checkout with submodules",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 16,
-                "started_at": "2022-01-14T02:40:35.000Z",
-                "completed_at": "2022-01-14T02:40:45.000Z"
-            },
-            {
-                "name": "Complete job",
-                "status": "completed",
-                "conclusion": "success",
-                "number": 17,
-                "started_at": "2022-01-14T02:40:45.000Z",
-                "completed_at": "2022-01-14T02:40:45.000Z"
-            }
-        ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096829",
-        "labels": [
-            "windows-2016"
         ],
         "runner_id": 17,
         "runner_name": "GitHub Actions 17",
@@ -1921,18 +1808,131 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096806,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883461,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLFJg",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096806",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096806?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7GBQ",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883461",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883461?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:42Z",
-        "completed_at": "2022-01-14T02:40:48Z",
+        "started_at": "2022-01-14T04:51:27Z",
+        "completed_at": "2022-01-14T04:54:38Z",
+        "name": "SDL_ttf vs-14-2015-sdk-8-1 windows-2016",
+        "steps": [
+            {
+                "name": "Set up job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 1,
+                "started_at": "2022-01-14T04:51:27.000Z",
+                "completed_at": "2022-01-14T04:51:30.000Z"
+            },
+            {
+                "name": "Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 2,
+                "started_at": "2022-01-14T04:51:30.000Z",
+                "completed_at": "2022-01-14T04:51:52.000Z"
+            },
+            {
+                "name": "Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 3,
+                "started_at": "2022-01-14T04:51:52.000Z",
+                "completed_at": "2022-01-14T04:51:53.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Unix)",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 4,
+                "started_at": "2022-01-14T04:51:53.000Z",
+                "completed_at": "2022-01-14T04:51:53.000Z"
+            },
+            {
+                "name": "Set up Python environment variable (Windows)",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 5,
+                "started_at": "2022-01-14T04:51:53.000Z",
+                "completed_at": "2022-01-14T04:51:54.000Z"
+            },
+            {
+                "name": "Extract branch name",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 6,
+                "started_at": "2022-01-14T04:51:54.000Z",
+                "completed_at": "2022-01-14T04:51:54.000Z"
+            },
+            {
+                "name": "Build on Unix",
+                "status": "completed",
+                "conclusion": "skipped",
+                "number": 7,
+                "started_at": "2022-01-14T04:51:54.000Z",
+                "completed_at": "2022-01-14T04:51:54.000Z"
+            },
+            {
+                "name": "Build on Windows",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 8,
+                "started_at": "2022-01-14T04:51:54.000Z",
+                "completed_at": "2022-01-14T04:54:29.000Z"
+            },
+            {
+                "name": "Post Set up Python",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 15,
+                "started_at": "2022-01-14T04:54:29.000Z",
+                "completed_at": "2022-01-14T04:54:29.000Z"
+            },
+            {
+                "name": "Post Git checkout with submodules",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 16,
+                "started_at": "2022-01-14T04:54:29.000Z",
+                "completed_at": "2022-01-14T04:54:38.000Z"
+            },
+            {
+                "name": "Complete job",
+                "status": "completed",
+                "conclusion": "success",
+                "number": 17,
+                "started_at": "2022-01-14T04:54:38.000Z",
+                "completed_at": "2022-01-14T04:54:38.000Z"
+            }
+        ],
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883461",
+        "labels": [
+            "windows-2016"
+        ],
+        "runner_id": 16,
+        "runner_name": "GitHub Actions 16",
+        "runner_group_id": 2,
+        "runner_group_name": "GitHub Actions"
+    },
+    {
+        "id": 4812883430,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
+        "run_attempt": 1,
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7F5g",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883430",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883430?check_suite_focus=true",
+        "status": "completed",
+        "conclusion": "success",
+        "started_at": "2022-01-14T04:51:28Z",
+        "completed_at": "2022-01-14T04:54:29Z",
         "name": "SDL_ttf vs-15-2017-win64-cxx17 windows-2016",
         "steps": [
             {
@@ -1940,91 +1940,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:42.000Z",
-                "completed_at": "2022-01-14T02:39:44.000Z"
+                "started_at": "2022-01-14T04:51:28.000Z",
+                "completed_at": "2022-01-14T04:51:31.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:44.000Z",
-                "completed_at": "2022-01-14T02:40:10.000Z"
+                "started_at": "2022-01-14T04:51:31.000Z",
+                "completed_at": "2022-01-14T04:51:54.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:40:10.000Z",
-                "completed_at": "2022-01-14T02:40:10.000Z"
+                "started_at": "2022-01-14T04:51:54.000Z",
+                "completed_at": "2022-01-14T04:51:55.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 4,
-                "started_at": "2022-01-14T02:40:10.000Z",
-                "completed_at": "2022-01-14T02:40:10.000Z"
+                "started_at": "2022-01-14T04:51:55.000Z",
+                "completed_at": "2022-01-14T04:51:55.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2022-01-14T02:40:10.000Z",
-                "completed_at": "2022-01-14T02:40:11.000Z"
+                "started_at": "2022-01-14T04:51:55.000Z",
+                "completed_at": "2022-01-14T04:51:56.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:40:11.000Z",
-                "completed_at": "2022-01-14T02:40:12.000Z"
+                "started_at": "2022-01-14T04:51:56.000Z",
+                "completed_at": "2022-01-14T04:51:56.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 7,
-                "started_at": "2022-01-14T02:40:12.000Z",
-                "completed_at": "2022-01-14T02:40:12.000Z"
+                "started_at": "2022-01-14T04:51:56.000Z",
+                "completed_at": "2022-01-14T04:51:56.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:12.000Z",
-                "completed_at": "2022-01-14T02:40:39.000Z"
+                "started_at": "2022-01-14T04:51:56.000Z",
+                "completed_at": "2022-01-14T04:54:20.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:39.000Z",
-                "completed_at": "2022-01-14T02:40:39.000Z"
+                "started_at": "2022-01-14T04:54:20.000Z",
+                "completed_at": "2022-01-14T04:54:20.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:39.000Z",
-                "completed_at": "2022-01-14T02:40:48.000Z"
+                "started_at": "2022-01-14T04:54:20.000Z",
+                "completed_at": "2022-01-14T04:54:29.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:48.000Z",
-                "completed_at": "2022-01-14T02:40:48.000Z"
+                "started_at": "2022-01-14T04:54:29.000Z",
+                "completed_at": "2022-01-14T04:54:29.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096806",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883430",
         "labels": [
             "windows-2016"
         ],
@@ -2034,18 +2034,18 @@
         "runner_group_name": "GitHub Actions"
     },
     {
-        "id": 4812096771,
-        "run_id": 1695883509,
-        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1695883509",
+        "id": 4812883408,
+        "run_id": 1696205657,
+        "run_url": "https://api.github.com/repos/drodin/hunter/actions/runs/1696205657",
         "run_attempt": 1,
-        "node_id": "CR_kwDOCJCqNc8AAAABHtLFAw",
-        "head_sha": "6589d3bce1d6b6314decce8c9516eecb9c0bf9de",
-        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812096771",
-        "html_url": "https://github.com/drodin/hunter/runs/4812096771?check_suite_focus=true",
+        "node_id": "CR_kwDOCJCqNc8AAAABHt7F0A",
+        "head_sha": "9831497997dbee6dd9b975d27996c3b81212073a",
+        "url": "https://api.github.com/repos/drodin/hunter/actions/jobs/4812883408",
+        "html_url": "https://github.com/drodin/hunter/runs/4812883408?check_suite_focus=true",
         "status": "completed",
         "conclusion": "success",
-        "started_at": "2022-01-14T02:39:45Z",
-        "completed_at": "2022-01-14T02:40:50Z",
+        "started_at": "2022-01-14T04:51:28Z",
+        "completed_at": "2022-01-14T04:53:24Z",
         "name": "SDL_ttf vs-16-2019-win64-sdk-10-0-18362-0-cxx17 windows-2019",
         "steps": [
             {
@@ -2053,91 +2053,91 @@
                 "status": "completed",
                 "conclusion": "success",
                 "number": 1,
-                "started_at": "2022-01-14T02:39:45.000Z",
-                "completed_at": "2022-01-14T02:39:46.000Z"
+                "started_at": "2022-01-14T04:51:28.000Z",
+                "completed_at": "2022-01-14T04:51:31.000Z"
             },
             {
                 "name": "Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 2,
-                "started_at": "2022-01-14T02:39:46.000Z",
-                "completed_at": "2022-01-14T02:40:10.000Z"
+                "started_at": "2022-01-14T04:51:31.000Z",
+                "completed_at": "2022-01-14T04:51:47.000Z"
             },
             {
                 "name": "Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 3,
-                "started_at": "2022-01-14T02:40:10.000Z",
-                "completed_at": "2022-01-14T02:40:11.000Z"
+                "started_at": "2022-01-14T04:51:47.000Z",
+                "completed_at": "2022-01-14T04:51:47.000Z"
             },
             {
                 "name": "Set up Python environment variable (Unix)",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 4,
-                "started_at": "2022-01-14T02:40:11.000Z",
-                "completed_at": "2022-01-14T02:40:11.000Z"
+                "started_at": "2022-01-14T04:51:47.000Z",
+                "completed_at": "2022-01-14T04:51:47.000Z"
             },
             {
                 "name": "Set up Python environment variable (Windows)",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 5,
-                "started_at": "2022-01-14T02:40:11.000Z",
-                "completed_at": "2022-01-14T02:40:12.000Z"
+                "started_at": "2022-01-14T04:51:47.000Z",
+                "completed_at": "2022-01-14T04:51:48.000Z"
             },
             {
                 "name": "Extract branch name",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 6,
-                "started_at": "2022-01-14T02:40:12.000Z",
-                "completed_at": "2022-01-14T02:40:13.000Z"
+                "started_at": "2022-01-14T04:51:48.000Z",
+                "completed_at": "2022-01-14T04:51:48.000Z"
             },
             {
                 "name": "Build on Unix",
                 "status": "completed",
                 "conclusion": "skipped",
                 "number": 7,
-                "started_at": "2022-01-14T02:40:13.000Z",
-                "completed_at": "2022-01-14T02:40:13.000Z"
+                "started_at": "2022-01-14T04:51:48.000Z",
+                "completed_at": "2022-01-14T04:51:48.000Z"
             },
             {
                 "name": "Build on Windows",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 8,
-                "started_at": "2022-01-14T02:40:13.000Z",
-                "completed_at": "2022-01-14T02:40:46.000Z"
+                "started_at": "2022-01-14T04:51:48.000Z",
+                "completed_at": "2022-01-14T04:53:21.000Z"
             },
             {
                 "name": "Post Set up Python",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 15,
-                "started_at": "2022-01-14T02:40:46.000Z",
-                "completed_at": "2022-01-14T02:40:46.000Z"
+                "started_at": "2022-01-14T04:53:21.000Z",
+                "completed_at": "2022-01-14T04:53:21.000Z"
             },
             {
                 "name": "Post Git checkout with submodules",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 16,
-                "started_at": "2022-01-14T02:40:46.000Z",
-                "completed_at": "2022-01-14T02:40:50.000Z"
+                "started_at": "2022-01-14T04:53:21.000Z",
+                "completed_at": "2022-01-14T04:53:24.000Z"
             },
             {
                 "name": "Complete job",
                 "status": "completed",
                 "conclusion": "success",
                 "number": 17,
-                "started_at": "2022-01-14T02:40:50.000Z",
-                "completed_at": "2022-01-14T02:40:50.000Z"
+                "started_at": "2022-01-14T04:53:24.000Z",
+                "completed_at": "2022-01-14T04:53:24.000Z"
             }
         ],
-        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812096771",
+        "check_run_url": "https://api.github.com/repos/drodin/hunter/check-runs/4812883408",
         "labels": [
             "windows-2019"
         ],
