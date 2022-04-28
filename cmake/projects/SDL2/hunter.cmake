@@ -164,11 +164,11 @@ hunter_add_version(
         PACKAGE_NAME
         SDL2
         VERSION
-        "2.0.20"
+        "2.0.22-22d6e09"
         URL
-        "https://github.com/libsdl-org/SDL/archive/release-2.0.20.tar.gz"
+        "https://github.com/libsdl-org/SDL/archive/22d6e09a8ded9a0a6880ed02ed069d637f987540.zip"
         SHA1
-        ab2c2a8711e4879601565ba75cb13e140f6ed771
+        c6d78f0981689e0d3ee20ee449917dedbc05c575
 )
 
 hunter_add_version(
