@@ -85,6 +85,18 @@ hunter_add_version(
     e9b199a80e16f5120587c44082ec62962cf3b553
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    freetype
+    VERSION
+    "2.12.1-p0"
+    URL
+    "https://github.com/drodin/freetype/archive/refs/heads/hunter-2.12.1.zip"
+    SHA1
+    8453220e215470718c0000fb7feda14dda6d71cf
+)
+
+if(HUNTER_freetype_VERSION VERSION_LESS 2.12.1)
 hunter_cmake_args(
     freetype
     CMAKE_ARGS
@@ -93,6 +105,17 @@ hunter_cmake_args(
     FT_WITH_BZIP2=ON
     FT_WITH_HARFBUZZ=OFF # harfbuzz already depends on freetype!
 )
+else()
+hunter_cmake_args(
+    freetype
+    CMAKE_ARGS
+    FT_REQUIRE_PNG=ON
+    FT_REQUIRE_ZLIB=ON
+    FT_REQUIRE_BZIP2=ON
+    FT_REQUIRE_BROTLI=ON
+    FT_DISABLE_HARFBUZZ=ON # harfbuzz already depends on freetype!
+)
+endif()
 
 hunter_pick_scheme(DEFAULT url_sha1_cmake)
 hunter_cacheable(freetype)
