@@ -88,6 +88,17 @@ hunter_add_version(
     4b82a4cd6efe46cf548c2715d308523fd1b30bdb
 )
 
+hunter_add_version(
+    PACKAGE_NAME
+    WebP
+    VERSION
+    "1.2.4-p0"
+    URL
+    "https://github.com/cpp-pm/libwebp/archive/refs/tags/v1.2.4-p0.tar.gz"
+    SHA1
+    45389ed7a5b15e3c4139ae044d702d7cb37af840
+)
+
 set(
     _hunter_webp_cmake_args
     WEBP_BUILD_ANIM_UTILS=OFF
