@@ -28,7 +28,7 @@ set PATH=%PATH:C:\Program Files\Git\usr\bin;=%
 :: Variable will be used in CMake so it's okay to use Unix style '/'
 set HUNTER_GIT_EXECUTABLE=C:/Program Files/Git/bin/git.exe
 
-set MINGW_PATH=C:\ProgramData\chocolatey\bin
+set MINGW_PATH=C:\mingw64\bin
 
 :: MSYS2 location
 set MSYS_PATH=C:\msys64\usr\bin
