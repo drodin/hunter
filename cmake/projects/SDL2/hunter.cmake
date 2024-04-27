@@ -197,6 +197,50 @@ hunter_add_version(
         PACKAGE_NAME
         SDL2
         VERSION
+        "2.24.2"
+        URL
+        "https://github.com/libsdl-org/SDL/releases/download/release-2.24.2/SDL2-2.24.2.tar.gz"
+        SHA1
+        828974badaf1f16f8e3ebe84fb6f7e5d793c1e47
+)
+
+hunter_add_version(
+        PACKAGE_NAME
+        SDL2
+        VERSION
+        "2.26.5"
+        URL
+        "https://github.com/libsdl-org/SDL/releases/download/release-2.26.5/SDL2-2.26.5.tar.gz"
+        SHA1
+        ca5d89edc537fd819eddab1f1a86f61e45fcb68b
+)
+
+hunter_add_version(
+        PACKAGE_NAME
+        SDL2
+        VERSION
+        "2.28.5"
+        URL
+        "https://github.com/libsdl-org/SDL/releases/download/release-2.28.5/SDL2-2.28.5.tar.gz"
+        SHA1
+        50af6b564890d702e57e2a72d6429b43778ed29a
+)
+
+hunter_add_version(
+        PACKAGE_NAME
+        SDL2
+        VERSION
+        "2.30.2"
+        URL
+        "https://github.com/libsdl-org/SDL/releases/download/release-2.30.2/SDL2-2.30.2.tar.gz"
+        SHA1
+        37a0557fc39460dc2a4fbbf162d95f115d2c9be2
+)
+
+hunter_add_version(
+        PACKAGE_NAME
+        SDL2
+        VERSION
         "2.0.4-urho-p2"
         URL
         "https://github.com/cpp-pm/SDL2_legacy/archive/v2.0.4-urho-p2.tar.gz"
